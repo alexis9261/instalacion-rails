@@ -58,5 +58,9 @@ ruby -v
 ```
 
 Ahora creamos un proyecto Ruby on Rails, En cualquier directorio
+```bash
 cd path/
 rails new app_name
+```
+
+
