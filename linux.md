@@ -33,6 +33,19 @@ rbenv install 3.1.2
 rbenv global 3.1.2
 ```
 
+Para ver todas las versiones de Ruby que se tienen instaladas
+
+```bash
+rbenv versions
+```
+
+Para cambiar a una version de Ruby en particular
+
+```bash
+rbenv global particular_version
+rbenv global 2.7.0
+```
+
 Instalación bundler, manejador de paquetes de Ruby
 
 ```bash
