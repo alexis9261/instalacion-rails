@@ -9,7 +9,7 @@ sudo apt-get install git-core zlib1g-dev build-essential libssl-dev libreadline-
 
 ```
 
-Instalación rbenv
+Instalación rbenv - Entorno para poder ejecutar distintas versiones de Ruby en Linux
 
 
 ```bash
@@ -33,26 +33,30 @@ rbenv install 3.1.2
 rbenv global 3.1.2
 ```
 
-Instalación bundler
+Instalación bundler, manejador de paquetes de Ruby
 
 ```bash
 gem install bundler
 ```
 
-Instalación rails
+Instalación rails, instala el framework en el S.O. NO crea un proyecto, solo el instalador
 
 ```bash
 gem install rails -v 7.0.2.4
 ```
 
-Paso final
+Paso final, para refresacar configuraciones de rbenv, necesario si se realizo un cambio de version de Ruby
 
 ```bash
 rbenv rehash
 ```
 
-Comando final
+Comando final, verificamos que esta corriendo la version correcta de Ruby
 
 ```bash
 ruby -v
 ```
+
+Ahora creamos un proyecto Ruby on Rails, En cualquier directorio
+cd path/
+rails new app_name
