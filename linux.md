@@ -64,10 +64,16 @@ Paso final, para refresacar configuraciones de rbenv, necesario si se realizo un
 rbenv rehash
 ```
 
-Comando final, verificamos que esta corriendo la version correcta de Ruby
+Para ver cual version de Ruby esta corriendo
 
 ```bash
 ruby -v
+```
+
+Para ver cual version de Rails esta corriendo
+
+```bash
+rails -v
 ```
 
 Ahora creamos un proyecto Ruby on Rails, En cualquier directorio
